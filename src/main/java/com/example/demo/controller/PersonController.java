@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.rmi.ServerException;
 import java.util.Collection;
 
-@CrossOrigin(origins = "http://localhost:8081", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "https://portfolio-arg-progama.web.app/", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("api/person")
 public class PersonController {

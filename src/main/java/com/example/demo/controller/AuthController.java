@@ -28,7 +28,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = "https://portfolio-arg-progama.web.app/", maxAge = 3600, allowCredentials="true")
+
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {

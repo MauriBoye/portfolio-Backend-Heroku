@@ -12,6 +12,7 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("api/skill")
+@CrossOrigin(origins = "https://portfolio-arg-progama.web.app/", maxAge = 3600, allowCredentials="true")
 public class SkillController {
 
     @Autowired

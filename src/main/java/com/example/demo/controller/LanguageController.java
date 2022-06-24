@@ -13,6 +13,7 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("api/language")
+@CrossOrigin(origins = "https://portfolio-arg-progama.web.app/", maxAge = 3600, allowCredentials="true")
 public class LanguageController {
 
     @Autowired

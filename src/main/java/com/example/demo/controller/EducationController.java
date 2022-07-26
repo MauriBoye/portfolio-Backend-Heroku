@@ -13,7 +13,6 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("api/education")
-@CrossOrigin(origins = "*")
 public class EducationController {
 
     @Autowired

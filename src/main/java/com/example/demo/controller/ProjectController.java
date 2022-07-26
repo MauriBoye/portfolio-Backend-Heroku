@@ -13,7 +13,6 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("api/project")
-@CrossOrigin(origins = "*")
 public class ProjectController {
 
     @Autowired

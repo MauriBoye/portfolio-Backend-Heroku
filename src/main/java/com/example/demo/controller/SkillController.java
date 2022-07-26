@@ -12,7 +12,6 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("api/skill")
-@CrossOrigin(origins = "*")
 public class SkillController {
 
     @Autowired

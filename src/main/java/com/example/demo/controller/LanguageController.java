@@ -13,7 +13,6 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("api/language")
-@CrossOrigin(origins = "*")
 public class LanguageController {
 
     @Autowired

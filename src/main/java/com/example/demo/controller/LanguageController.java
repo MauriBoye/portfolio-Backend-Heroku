@@ -13,7 +13,7 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("api/language")
-@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "*")
 public class LanguageController {
 
     @Autowired

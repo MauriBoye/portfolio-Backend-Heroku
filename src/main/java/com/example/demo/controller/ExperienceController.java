@@ -14,6 +14,7 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("api/experience")
+@CrossOrigin(origins = {"https://portfolio-arg-progama.web.app/", "http://localhost:4200"}, maxAge = 3600, allowCredentials="true")
 public class ExperienceController {
 
     @Autowired
